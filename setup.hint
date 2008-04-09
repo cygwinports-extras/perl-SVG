@@ -1,0 +1,5 @@
+category: Graphics Perl
+requires: perl
+sdesc: "Perl SVG creation module"
+ldesc: "SVG.pm is a perl extension to generate stand-alone or inline SVG 
+(scalable vector graphics) images using the W3C SVG xml recommendation."

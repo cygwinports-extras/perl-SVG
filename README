@@ -1,0 +1,61 @@
+perl-SVG
+------------------------------------------
+SVG.pm is a perl extension to generate stand-alone or inline SVG 
+(scalable vector graphics) images using the W3C SVG xml recommendation.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/SVG/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/R/RO/RONAN/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-SVG-2.39-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-SVG-2.39-X.cygport all
+
+This will create:
+  /usr/src/perl-SVG-2.39-X-src.tar.bz2
+  /usr/src/perl-SVG-2.39-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/SVG.pm
+  /usr/lib/perl5/vendor_perl/5.10/SVG/DOM.pm
+  /usr/lib/perl5/vendor_perl/5.10/SVG/Element.pm
+  /usr/lib/perl5/vendor_perl/5.10/SVG/Extension.pm
+  /usr/lib/perl5/vendor_perl/5.10/SVG/Manual.pm
+  /usr/lib/perl5/vendor_perl/5.10/SVG/XML.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/SVG/.packlist
+  /usr/share/doc/perl-SVG-2.39/Changes
+  /usr/share/doc/perl-SVG-2.39/README
+  /usr/share/man/man3/SVG.3pm.gz
+  /usr/share/man/man3/SVG.DOM.3pm.gz
+  /usr/share/man/man3/SVG.Element.3pm.gz
+  /usr/share/man/man3/SVG.Extension.3pm.gz
+  /usr/share/man/man3/SVG.Manual.3pm.gz
+  /usr/share/man/man3/SVG.XML.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.39-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
